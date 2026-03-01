@@ -5,6 +5,7 @@ public class Arrays{
         marks[0] = 97 ;
         marks[1] = 98 ;
         marks[2] = 99 ;
+        System.out.println("Array elements are:");
         System.out.println(marks[0]);
         System.out.println(marks[1]);
         System.out.println(marks[2]);
