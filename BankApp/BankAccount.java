@@ -2,8 +2,32 @@ package BankApp;
 
 public class BankAccount {
 
-    int accountNumber;
-    double balance;
+    private int accountNumber;
+    private double balance;
+
+    // Constructor
+    public BankAccount(int accountNumber, double initialBalance) {
+        this.accountNumber = accountNumber;
+        this.balance = initialBalance;
+    }
+
+    // Getters
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    // Setters
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
     public void deposit_amount(double amount) {
 
